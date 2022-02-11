@@ -25,6 +25,7 @@ module:
   locale: 0
   node: 0
   page_cache: 0
+  path: 0
   path_alias: 0
   statistics: 0
   syslog: 0

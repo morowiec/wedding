@@ -1,0 +1,28 @@
+uuid: ce3220db-9b92-49b5-8c85-38a7f54bf630
+langcode: en
+status: true
+dependencies:
+  module:
+    - editor
+name: 'Full HTML'
+format: full_html
+weight: 0
+filters:
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: true
+    weight: 0
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
