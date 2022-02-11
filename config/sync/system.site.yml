@@ -4,11 +4,11 @@ langcode: en
 uuid: 000b4073-77fe-4c6e-b188-f929cf2e19bb
 name: 'Bénédicte & Bartek wedding'
 mail: morowiec+wedding@gmail.com
-slogan: ''
+slogan: '28 May 2022 - Jamna, Poland'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
