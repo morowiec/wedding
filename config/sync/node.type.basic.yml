@@ -1,7 +1,14 @@
 uuid: fe591c58-439b-4624-90d8-5079765e4334
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 name: Basic
 type: basic
 description: 'Basic content type.'
