@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a823fd11f7c395f211b54ef5d39e540",
+    "content-hash": "a7d8041a181d7d2044c39a2d18d60154",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1771,18 +1771,18 @@
             }
         },
         {
-            "name": "drupal/lang_dropdown",
-            "version": "2.0.0",
+            "name": "drupal/languageicons",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/lang_dropdown.git",
-                "reference": "8.x-2.0"
+                "url": "https://git.drupalcode.org/project/languageicons.git",
+                "reference": "8.x-1.0-beta3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lang_dropdown-8.x-2.0.zip",
-                "reference": "8.x-2.0",
-                "shasum": "550f71c9c675e267b36126e381467996f9ae5e73"
+                "url": "https://ftp.drupal.org/files/projects/languageicons-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "1b2ffa57dabfc7717d5474c7066a43e8fcdfa28a"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -1790,11 +1790,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0",
-                    "datestamp": "1644403238",
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1609835079",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1804,30 +1804,18 @@
             ],
             "authors": [
                 {
-                    "name": "Mohammed J. Razem",
-                    "homepage": "https://www.drupal.org/user/255384"
+                    "name": "Freso",
+                    "homepage": "https://www.drupal.org/user/27504"
                 },
                 {
-                    "name": "Rajab Natshah",
-                    "homepage": "https://www.drupal.org/user/1414312"
-                },
-                {
-                    "name": "borisson_",
-                    "homepage": "https://www.drupal.org/user/2393360"
-                },
-                {
-                    "name": "kala4ek",
-                    "homepage": "https://www.drupal.org/user/1945174"
-                },
-                {
-                    "name": "manfer",
-                    "homepage": "https://www.drupal.org/user/506264"
+                    "name": "pfrenssen",
+                    "homepage": "https://www.drupal.org/user/382067"
                 }
             ],
-            "description": "Provides a dropdown select to switch between available languages.",
-            "homepage": "https://www.drupal.org/project/lang_dropdown",
+            "description": "Adds icons to language links.",
+            "homepage": "https://www.drupal.org/project/languageicons",
             "support": {
-                "source": "https://git.drupalcode.org/project/lang_dropdown"
+                "source": "https://git.drupalcode.org/project/languageicons"
             }
         },
         {
@@ -10162,7 +10150,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/languageicons": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
