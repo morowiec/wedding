@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: cpiebjeL5BJQM1KnuVUE-HxHiY-5OM6jfuhD1-SLNU0
+show_node: true
+show_block: true
+placement: replace
+size: 16x12
+path: 'modules/contrib/languageicons/flags/*.png'
+show: null
+actions: null
+form_build_id: form-OesV3wSecXs13Gvq_8ZX-HPSCdbhVG_rXyILwZVtyOQ
+form_token: IxwxMvv3DShlFbC86TJhlJcWx50uvU-DeTD3MBXimSg
+form_id: languageicons_settings

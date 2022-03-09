@@ -1,0 +1,27 @@
+uuid: 5b9fe588-83c1-4346-97a1-b39a86a79238
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: basic
+label: Basic
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  c445bf6e-8b5d-4fa2-a45a-97f3c5d4e7de:
+    id: language
+    negate: false
+    uuid: c445bf6e-8b5d-4fa2-a45a-97f3c5d4e7de
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+      pl: pl
+      fr: fr
+selection_logic: and
+weight: -5
+relationships:
+  'node:langcode:language':
+    label: Language
