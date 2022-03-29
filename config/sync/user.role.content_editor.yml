@@ -1,0 +1,39 @@
+uuid: 99885869-09af-45ff-8637-16518d4fee47
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.basic
+  module:
+    - content_translation
+    - filter
+    - menu_link_content
+    - node
+    - system
+    - toolbar
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'create content translations'
+  - 'delete content translations'
+  - 'delete own basic content'
+  - 'edit any basic content'
+  - 'edit own basic content'
+  - 'revert basic revisions'
+  - 'translate any entity'
+  - 'translate basic node'
+  - 'translate editable entities'
+  - 'translate menu_link_content'
+  - 'update content translations'
+  - 'use text format full_html'
+  - 'view basic revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'
