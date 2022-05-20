@@ -1,0 +1,29 @@
+/* Styles for wedding subtheme */
+
+#header {
+  background: none;
+}
+
+.language-switcher-language-url img {
+  border: 1px solid #bbbbbb;
+}
+
+.region-header .block li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.region-primary-menu .menu-item {
+  font-size: 1.4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.region-primary-menu .menu-item a {
+  background: none;
+}
+
+.region-primary-menu .menu-item a.is-active {
+  background: none !important;
+  border: none;
+  font-weight: bold;
+}

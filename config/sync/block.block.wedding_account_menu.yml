@@ -1,4 +1,4 @@
-uuid: 6b3cfcb3-6ea7-423d-bf23-35a05f0ecf0d
+uuid: aefb43ed-6b53-42bf-8e23-41d988e51fae
 langcode: en
 status: false
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - wedding
 _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
-id: olivero_account_menu
-theme: olivero
+id: wedding_account_menu
+theme: wedding
 region: secondary_menu
 weight: -4
 provider: null

@@ -1,15 +1,15 @@
-uuid: af92f03f-ec8d-43d1-b683-08c0fdbdd93f
+uuid: 3f66b214-31ef-4f82-95b3-fcb400685a45
 langcode: en
 status: false
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - wedding
 _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: olivero_breadcrumbs
-theme: olivero
+id: wedding_breadcrumbs
+theme: wedding
 region: breadcrumb
 weight: 0
 provider: null

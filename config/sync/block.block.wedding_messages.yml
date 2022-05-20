@@ -1,15 +1,15 @@
-uuid: 1b98e068-28b5-4d3d-afeb-d0694975268a
+uuid: 192ea428-4270-4e68-a168-5961b5c18a84
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - wedding
 _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
-id: olivero_messages
-theme: olivero
+id: wedding_messages
+theme: wedding
 region: highlighted
 weight: -5
 provider: null
