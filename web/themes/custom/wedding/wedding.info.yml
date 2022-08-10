@@ -5,8 +5,12 @@ description: 'This is a wedding sub-theme of theme Bartik.'
 package: Wedding
 core_version_requirement: ^9.3 || ^10
 version: VERSION
+
 libraries:
     - wedding/styles
+
+core: 8.x
+core_version_requirement: ^8 || ^9
 
 regions:
   header: Header

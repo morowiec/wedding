@@ -1,17 +1,17 @@
-uuid: 65796f56-2f3f-40b7-aaa7-8b5c20c6439e
+uuid: 0c64f192-e1bc-4506-bea4-8f211d12e51b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - wedding
 _core:
   default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
-id: olivero_content
-theme: olivero
+id: wedding_content
+theme: wedding
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: system_main_block
 settings:
