@@ -1,14 +1,14 @@
-uuid: 0c990c20-7e52-4554-8f97-c09dc616fa9a
+uuid: 91810bee-23a5-4987-8625-20910a8a29db
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - wedding
 _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
-id: olivero_primary_local_tasks
-theme: olivero
-region: highlighted
+id: wedding_primary_local_tasks
+theme: wedding
+region: content
 weight: -4
 provider: null
 plugin: local_tasks_block
