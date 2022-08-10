@@ -1,15 +1,15 @@
-uuid: 14ad3c8f-f36b-4160-b85b-9245ee755c21
+uuid: b91bae2f-f8d4-49a8-b434-89c8d98d6389
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - wedding
 _core:
   default_config_hash: sDmKoL9ejxB_fvD_qmgOHa8HN3X9AIsbud2xK8brMiI
-id: primary_admin_actions
-theme: olivero
+id: wedding_primary_admin_actions
+theme: wedding
 region: highlighted
-weight: -5
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:

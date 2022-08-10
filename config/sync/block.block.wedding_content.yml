@@ -1,0 +1,22 @@
+uuid: 0c64f192-e1bc-4506-bea4-8f211d12e51b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wedding
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: wedding_content
+theme: wedding
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

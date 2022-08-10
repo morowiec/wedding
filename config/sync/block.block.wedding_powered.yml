@@ -1,0 +1,22 @@
+uuid: c4586bc5-585d-49fa-bcdf-258a50f42ca9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wedding
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: wedding_powered
+theme: wedding
+region: footer_first
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

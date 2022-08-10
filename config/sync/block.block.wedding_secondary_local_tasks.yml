@@ -1,0 +1,22 @@
+uuid: e96fee66-849f-40ca-b886-99948119c134
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wedding
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: wedding_secondary_local_tasks
+theme: wedding
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
